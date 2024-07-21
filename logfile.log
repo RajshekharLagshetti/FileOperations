@@ -1,0 +1,14 @@
+2024-07-20 22:05:44,795 error has occured
+2024-07-20 22:05:44,795 [Errno 2] No such file or directory: 'test1.txt'
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\PycharmProjects\FileOperations\main.py", line 24, in fileread
+    f = open(self.filename + '.' + self.filetype, 'r')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'test1.txt'
+2024-07-20 22:45:19,856 error has occured
+2024-07-20 22:45:19,856 '_io.TextIOWrapper' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\PycharmProjects\FileOperations\main.py", line 29, in fileread
+    print(f["name"])
+          ~^^^^^^^^
+TypeError: '_io.TextIOWrapper' object is not subscriptable
